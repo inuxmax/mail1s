@@ -36,7 +36,10 @@ interface Props {
   className?: string;
 }
 
-async function GitHubStarsWrapper({ owner, repo, className }: Props) {
+async function GitHubStarsWrapper(props: Props) {
+  const owner = props.owner || "inuxmax";
+  const repo = props.repo || "mail1s";
+  const { className } = props;
   const stars = await getGitHubStars(owner, repo);
 
   return (
