@@ -10,19 +10,14 @@ interface GitHubResponse {
 }
 
 async function getGitHubStars(owner: string, repo: string) {
-  const baseUrl = process.env.NODE_ENV === "production"
-    ? "https://Mail1s.net"
-    : "http://localhost:3000";
   const res = await fetch(
-    `${baseUrl}/api/github?owner=${owner}&repo=${repo}`,
+    `https://Mail1s.net/api/github?owner=${owner}&repo=${repo}`,
     {
       next: { revalidate: 3600 },
     },
   );
 
   if (!res.ok) {
-    const text = await res.text();
-    console.error("GitHub API error:", res.status, text);
     throw new Error("Failed to fetch GitHub stars");
   }
 
@@ -36,10 +31,7 @@ interface Props {
   className?: string;
 }
 
-async function GitHubStarsWrapper(props: Props) {
-  const owner = props.owner || "inuxmax";
-  const repo = props.repo || "mail1s";
-  const { className } = props;
+async function GitHubStarsWrapper({ owner, repo, className }: Props) {
   const stars = await getGitHubStars(owner, repo);
 
   return (
