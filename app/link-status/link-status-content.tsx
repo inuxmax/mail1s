@@ -115,7 +115,7 @@ export default function LinkStatusContent() {
         Powered by{" "}
         <Link
           className="hover:underline"
-          href={"https://wr.do"}
+          href={"https://Mail1s.net"}
           target="_blank"
           style={{ fontFamily: "Bahamas Bold" }}
         >

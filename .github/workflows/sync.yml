@@ -37,7 +37,7 @@ jobs:
         id: sync
         uses: aormsby/Fork-Sync-With-Upstream-action@v3.4
         with:
-          upstream_sync_repo: oiov/wr.do
+          upstream_sync_repo: oiov/Mail1s.net
           upstream_sync_branch: main
           target_sync_branch: main
           target_repo_token: ${{ secrets.GITHUB_TOKEN }} # automatically generated, no need to set
@@ -71,7 +71,7 @@ jobs:
             const commentBody = `## 🔄 同步成功 | Sync Successful
 
             **同步时间 | Sync Time:** ${syncTime}
-            **源仓库 | Source Repository:** [oiov/wr.do](https://github.com/oiov/wr.do)
+            **源仓库 | Source Repository:** [oiov/Mail1s.net](https://github.com/oiov/Mail1s.net)
             **同步分支 | Sync Branch:** main → main
             **最新提交 | Latest Commit:** ${commitMsg}
             **提交作者 | Commit Author:** ${commitAuthor}
@@ -102,7 +102,7 @@ jobs:
             ## 同步失败详情 | Sync Failure Details
 
             **失败时间 | Failure Time:** ${{ steps.commit_info.outputs.sync_time || 'Unknown' }}
-            **源仓库 | Source Repository:** [oiov/wr.do](https://github.com/oiov/wr.do)
+            **源仓库 | Source Repository:** [oiov/Mail1s.net](https://github.com/oiov/Mail1s.net)
             **目标分支 | Target Branch:** main
             **工作流运行 | Workflow Run:** [${{ github.run_id }}](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})
 
@@ -118,7 +118,7 @@ jobs:
             3. 重新运行此工作流
 
             ---
-            Due to a change in the workflow file of the [oiov/wr.do](https://github.com/oiov/wr.do) upstream repository, GitHub has automatically suspended the scheduled automatic update. You need to manually sync your fork.
+            Due to a change in the workflow file of the [oiov/Mail1s.net](https://github.com/oiov/Mail1s.net) upstream repository, GitHub has automatically suspended the scheduled automatic update. You need to manually sync your fork.
 
-            由于 [oiov/wr.do](https://github.com/oiov/wr.do) 上游仓库的 workflow 文件变更，导致 GitHub 自动暂停了本次自动更新，你需要手动 Sync Fork 一次。
+            由于 [oiov/Mail1s.net](https://github.com/oiov/Mail1s.net) 上游仓库的 workflow 文件变更，导致 GitHub 自动暂停了本次自动更新，你需要手动 Sync Fork 一次。
 

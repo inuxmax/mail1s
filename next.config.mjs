@@ -35,7 +35,7 @@ const nextConfig = {
       },
       {
         protocol: "https",
-        hostname: "email-attachment.wr.do",
+        hostname: "email-attachment.Mail1s.net",
       },
       {
         protocol: "http",
@@ -43,7 +43,7 @@ const nextConfig = {
       },
       {
         protocol: "https",
-        hostname: "wr.do",
+        hostname: "Mail1s.net",
       },
     ],
   },
@@ -75,42 +75,42 @@ const nextConfig = {
       },
       {
         source: "/0",
-        destination: "https://wr.do/s/0",
+        destination: "https://Mail1s.net/s/0",
         permanent: true,
       },
       {
         source: "/9",
-        destination: "https://wr.do/s/9",
+        destination: "https://Mail1s.net/s/9",
         permanent: true,
       },
       {
         source: "/ai",
-        destination: "https://wr.do/s/ai?ref=wrdo",
+        destination: "https://Mail1s.net/s/ai?ref=wrdo",
         permanent: true,
       },
       {
         source: "/cps",
-        destination: "https://wr.do/s/cps",
+        destination: "https://Mail1s.net/s/cps",
         permanent: true,
       },
       {
         source: "/x",
-        destination: "https://wr.do/s/x",
+        destination: "https://Mail1s.net/s/x",
         permanent: true,
       },
       {
         source: "/solo",
-        destination: "https://wr.do/s/solo",
+        destination: "https://Mail1s.net/s/solo",
         permanent: true,
       },
       {
         source: "/rmbg",
-        destination: "https://wr.do/s/rmbg",
+        destination: "https://Mail1s.net/s/rmbg",
         permanent: true,
       },
       {
         source: "/llk",
-        destination: "https://wr.do/s/llk",
+        destination: "https://Mail1s.net/s/llk",
         permanent: true,
       },
     ];

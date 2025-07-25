@@ -32,7 +32,7 @@ export function SiteFooter({ className }: React.HTMLAttributes<HTMLElement>) {
             <br />
             —all on one platform.
           </div>
-          <GitHubStarsWithSuspense className="mt-4" owner="oiov" repo="wr.do" />
+          <GitHubStarsWithSuspense className="mt-4" owner="oiov" repo="Mail1s.net" />
         </div>
         {footerLinks.map((section) => (
           <div key={section.title}>

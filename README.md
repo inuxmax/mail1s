@@ -1,36 +1,36 @@
 <div align="center">
-  <img src="https://wr.do/_static/images/x-preview.png" alt="WR.DO" >
-  <h1>WR.DO</h1>
+  <img src="https://Mail1s.net/_static/images/x-preview.png" alt="Mail1s.net" >
+  <h1>Mail1s.net</h1>
   <p>一站式域名服务平台，集成短链服务、临时邮箱、子域名管理、文件存储和开放API接口。</p>
   <p>
-    <a href="https://wr.do">官网</a> · <a href="https://wr.do/docs/developer">部署文档</a> · <a href="https://wr.do/feedback">反馈讨论</a> · <a href="/README-en.md">English</a> | 简体中文
+    <a href="https://Mail1s.net">官网</a> · <a href="https://Mail1s.net/docs/developer">部署文档</a> · <a href="https://Mail1s.net/feedback">反馈讨论</a> · <a href="/README-en.md">English</a> | 简体中文
   </p>
   <img alt="Vercel" src="https://img.shields.io/badge/vercel-online-55b467?labelColor=black&logo=vercel&style=flat-square">
-  <img alt="Release" src="https://img.shields.io/github/actions/workflow/status/oiov/wr.do/docker-build-push.yml?label=release&labelColor=black&logo=githubactions&logoColor=white&style=flat-square">
-  <img alt="Release" src="https://img.shields.io/github/release-date/oiov/wr.do?labelColor=black&style=flat-square">
-  <img alt="GitHub Release" src="https://img.shields.io/github/v/release/oiov/wr.do?style=flat-square&label=latest"><br>
-  <img src="https://img.shields.io/github/contributors/oiov/wr.do?color=c4f042&labelColor=black&style=flat-square" alt="contributors"/>
-  <img src="https://img.shields.io/github/stars/oiov/wr.do.svg?logo=github&style=flat-square" alt="star"/>
-  <img alt="GitHub forks" src="https://img.shields.io/github/forks/oiov/wr.do?style=flat-square">
-  <img alt="GitHub Issues or Pull Requests" src="https://img.shields.io/github/issues/oiov/wr.do?style=flat-square"> <br>
-  <img alt="GitHub Actions Workflow Status" src="https://img.shields.io/github/actions/workflow/status/oiov/wr.do/docker-build-push.yml?style=flat-square">
-	<img src="https://img.shields.io/github/license/oiov/wr.do?style=flat-square" alt="MIT"/>
+  <img alt="Release" src="https://img.shields.io/github/actions/workflow/status/oiov/Mail1s.net/docker-build-push.yml?label=release&labelColor=black&logo=githubactions&logoColor=white&style=flat-square">
+  <img alt="Release" src="https://img.shields.io/github/release-date/oiov/Mail1s.net?labelColor=black&style=flat-square">
+  <img alt="GitHub Release" src="https://img.shields.io/github/v/release/oiov/Mail1s.net?style=flat-square&label=latest"><br>
+  <img src="https://img.shields.io/github/contributors/oiov/Mail1s.net?color=c4f042&labelColor=black&style=flat-square" alt="contributors"/>
+  <img src="https://img.shields.io/github/stars/oiov/Mail1s.net.svg?logo=github&style=flat-square" alt="star"/>
+  <img alt="GitHub forks" src="https://img.shields.io/github/forks/oiov/Mail1s.net?style=flat-square">
+  <img alt="GitHub Issues or Pull Requests" src="https://img.shields.io/github/issues/oiov/Mail1s.net?style=flat-square"> <br>
+  <img alt="GitHub Actions Workflow Status" src="https://img.shields.io/github/actions/workflow/status/oiov/Mail1s.net/docker-build-push.yml?style=flat-square">
+	<img src="https://img.shields.io/github/license/oiov/Mail1s.net?style=flat-square" alt="MIT"/>
 </div>
 
 ## 截图预览
 
 <table>
   <tr>
-    <td><img src="https://wr.do/_static/images/light-preview.png" /></td>
-    <td><img src="https://wr.do/_static/images/example_02.png" /></td>
+    <td><img src="https://Mail1s.net/_static/images/light-preview.png" /></td>
+    <td><img src="https://Mail1s.net/_static/images/example_02.png" /></td>
   </tr>
   <tr>
-    <td><img src="https://wr.do/_static/images/example_01.png" /></td>
-    <td><img src="https://wr.do/_static/images/realtime-globe.png" /></td>
+    <td><img src="https://Mail1s.net/_static/images/example_01.png" /></td>
+    <td><img src="https://Mail1s.net/_static/images/realtime-globe.png" /></td>
   </tr>
   <tr>
-    <td><img src="https://wr.do/_static/images/example_03.png" /></td>
-    <td><img src="https://wr.do/_static/images/domains.png" /></td>
+    <td><img src="https://Mail1s.net/_static/images/example_03.png" /></td>
+    <td><img src="https://Mail1s.net/_static/images/domains.png" /></td>
   </tr>
 </table>
 
@@ -125,7 +125,7 @@
 
 ## 快速开始
 
-查看开发者[手把手部署教程](https://wr.do/docs/developer/quick-start-zh)文档。
+查看开发者[手把手部署教程](https://Mail1s.net/docs/developer/quick-start-zh)文档。
 
 ## 自部署教程
 
@@ -133,13 +133,13 @@
 
 ### 使用 Vercel 部署
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/oiov/wr.do.git&project-name=wrdo)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/oiov/Mail1s.net.git&project-name=wrdo)
 
 记得填写必要的环境变量。
 
 ### 使用 Docker Compose 部署
 
-在服务器中创建一个文件夹，进入该文件夹并新建 [docker-compose.yml](https://github.com/oiov/wr.do/blob/main/docker-compose.yml)、[.env](https://github.com/oiov/wr.do/blob/main/.env.example) 文件：
+在服务器中创建一个文件夹，进入该文件夹并新建 [docker-compose.yml](https://github.com/oiov/Mail1s.net/blob/main/docker-compose.yml)、[.env](https://github.com/oiov/Mail1s.net/blob/main/.env.example) 文件：
 
 ```yml
 - wrdo
@@ -159,15 +159,15 @@ docker compose up -d
 
 > 此方法部署目前无法build成功，不建议使用
 
-[![使用 EdgeOne Pages 部署](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://edgeone.ai/pages/new?repository-url=https%3A%2F%2Fgithub.com%2Foiov%2Fwr.do)
+[![使用 EdgeOne Pages 部署](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://edgeone.ai/pages/new?repository-url=https%3A%2F%2Fgithub.com%2Foiov%2FMail1s.net)
 
 ## 本地开发
 
 将 `.env.example` 复制为 `.env` 并填写必要的环境变量。
 
 ```bash
-git clone https://github.com/oiov/wr.do
-cd wr.do
+git clone https://github.com/oiov/Mail1s.net
+cd Mail1s.net
 pnpm install
 ```
 
@@ -196,33 +196,33 @@ pnpm dev
 
 ## 环境变量
 
-查看 [开发者文档](https://wr.do/docs/developer).
+查看 [开发者文档](https://Mail1s.net/docs/developer).
 
 ## Fork 仓库同步
 
-本项目配置了与上游仓库 [oiov/wr.do](https://github.com/oiov/wr.do) 的同步工作流，支持：
+本项目配置了与上游仓库 [oiov/Mail1s.net](https://github.com/oiov/Mail1s.net) 的同步工作流，支持：
 
 - 🔄 **手动触发同步** - 默认关闭自动同步，完全控制同步时机
 - 💬 **同步后自动评论** - 在相关 commit 上添加详细的同步信息
 - 🚨 **智能错误处理** - 同步失败时自动创建详细的 Issue
 - 🧹 **自动清理通知** - 自动关闭之前的同步失败 Issue
 
-前往[如何手动触发同步](https://wr.do/docs/developer/sync)查看详细文档。
+前往[如何手动触发同步](https://Mail1s.net/docs/developer/sync)查看详细文档。
 
 ## 社区群组
 
 - Discord: https://discord.gg/AHPQYuZu3m
 - 微信群：
 
-<img width="300" src="https://wr.do/s/group" />
+<img width="300" src="https://Mail1s.net/s/group" />
 
 ## Star History
 
-<a href="https://star-history.com/#oiov/wr.do&Date">
+<a href="https://star-history.com/#oiov/Mail1s.net&Date">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=oiov/wr.do&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=oiov/wr.do&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=oiov/wr.do&type=Date" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=oiov/Mail1s.net&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=oiov/Mail1s.net&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=oiov/Mail1s.net&type=Date" />
  </picture>
 </a>
 
